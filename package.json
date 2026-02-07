@@ -14,7 +14,7 @@
   "license": "MIT",
   "author": "Seth Hoong",
   "type": "module",
-  "main": "out/main.js",
+  "main": "dist/main.js",
   "scripts": {
     "test": "node ."
   },
