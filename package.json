@@ -1,6 +1,7 @@
 {
   "name": "project-name",
   "version": "1.0.0",
+  "private": true,
   "description": "",
   "homepage": "https://github.com/annoawesome/ts-node-fullstack#readme",
   "bugs": {
