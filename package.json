@@ -17,5 +17,9 @@
   "main": "out/main.js",
   "scripts": {
     "test": "node ."
+  },
+  "devDependencies": {
+    "eslint": "^9.39.2",
+    "typescript-eslint": "^8.54.0"
   }
 }
