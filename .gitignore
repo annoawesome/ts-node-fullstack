@@ -139,7 +139,8 @@ vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 
 # Frontend files served
-./public/
+/public/
+!/src/public/
 
 # Dev Container config
 # Template has its own devcontainer config, which may be overwritten depending on project needs and user preferences.
