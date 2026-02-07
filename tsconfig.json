@@ -7,5 +7,6 @@
         "rootDir": "./src/",
 
         "forceConsistentCasingInFileNames": true
-    }
+    },
+    "exclude": ["src/public/"]
 }
