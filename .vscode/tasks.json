@@ -7,6 +7,9 @@
 			"problemMatcher": [
 				"$tsc"
 			],
+			"presentation": {
+				"reveal": "silent"
+			},
 			"group": "build",
 			"label": "tsc: build"
 		},
@@ -15,7 +18,10 @@
 			"options": {
 				"cwd": "${workspaceFolder}/src/public/"
 			},
-			"command": "npx vite build",
+			"presentation": {
+				"reveal": "silent"
+			},
+			"command": "npx vite build --emptyOutDir",
 			"group": "build",
 			"label": "vite: build"
 		},
@@ -25,5 +31,4 @@
 			"label": "Build App"
 		}
 	],
-
 }
